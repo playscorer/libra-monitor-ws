@@ -1,0 +1,598 @@
+ERROR 00:06:16,600 MonitoringController - 52 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 00:09:16,462 MonitoringController - 46 - Event kind:ENTRY_CREATE. File affected: libra.html.2018-05-13.
+DEBUG 00:09:16,467 MonitoringController - 46 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 00:09:36,477 MonitoringController - 46 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 00:39:24,771 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 00:40:30,035 MonitoringController - 52 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 00:41:05,715 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 00:46:26,344 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 00:54:45,251 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 00:55:15,343 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 01:04:53,097 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 01:05:32,785 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 08:38:11,508 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:38:31,709 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:38:51,821 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:39:11,952 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:39:31,998 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:39:52,079 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:40:12,124 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:40:32,170 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:40:52,263 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:41:12,346 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:41:32,450 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:41:52,579 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:42:12,727 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:42:32,957 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:42:53,071 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:43:13,162 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:43:33,421 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:43:53,585 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:44:13,769 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:44:34,014 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:44:54,286 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:45:14,495 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:45:34,710 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:45:54,950 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:46:15,132 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:46:35,278 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:46:55,421 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:47:15,579 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:47:35,737 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:47:55,906 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:48:16,113 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:48:36,288 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:48:56,520 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:49:16,927 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:49:37,298 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:49:57,661 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:50:18,020 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:50:38,251 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:50:58,453 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:51:18,673 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:51:38,880 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:51:59,109 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:52:19,331 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:52:40,366 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:53:00,693 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:53:21,065 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:53:41,285 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 08:53:55,962 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 08:54:14,595 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:54:34,939 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 08:54:50,693 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 08:55:15,684 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 08:55:36,045 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 08:55:49,940 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 21:11:02,530 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:11:23,546 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:11:43,860 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 21:34:04,146 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 21:34:34,957 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 21:36:02,854 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:36:23,825 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:36:44,191 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 21:36:59,747 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 21:37:18,397 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:37:39,080 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:37:59,471 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:38:19,845 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:38:40,151 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:39:00,451 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:39:20,769 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:39:41,073 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:40:01,411 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:40:21,721 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:40:42,059 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:41:02,383 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:41:22,706 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:41:43,025 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:42:03,348 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:42:23,706 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:42:48,635 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:43:09,738 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:43:30,234 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:43:50,747 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:44:11,366 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:44:31,874 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:44:52,371 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:45:13,074 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:45:33,576 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:45:54,083 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:46:14,592 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:46:35,272 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:46:55,833 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:47:26,356 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:47:47,224 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:48:07,821 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:48:28,434 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:48:49,090 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:49:09,639 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:49:30,307 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 21:49:42,942 MonitoringController - 53 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:44)
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 21:49:59,823 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 21:50:19,852 MonitoringController - 53 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 21:52:57,257 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:53:18,448 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:53:39,182 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:53:59,866 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:54:20,471 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:54:41,192 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 21:54:58,460 MonitoringController - 53 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 21:55:16,040 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:55:37,193 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:55:58,222 MonitoringController - 47 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:56:19,625 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:56:40,152 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:57:00,795 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:57:21,326 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:57:51,815 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:58:12,224 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:58:32,776 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:59:03,342 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:59:23,786 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 21:59:44,220 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:00:14,633 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:00:35,154 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:00:55,585 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:01:16,007 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:01:46,425 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:02:06,850 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:02:27,294 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:02:47,729 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:03:08,174 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:03:38,609 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 22:03:53,183 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 22:04:09,517 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:04:30,512 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:04:51,460 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 22:05:04,650 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 22:05:20,927 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:05:42,019 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:06:02,699 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:06:23,371 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 22:06:40,970 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 22:07:00,268 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:07:21,496 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:07:42,036 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:08:02,715 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+DEBUG 22:08:23,247 MonitoringController - 51 - Event kind:ENTRY_MODIFY. File affected: libra.html.
+ERROR 22:08:40,495 MonitoringController - 57 - Unexpected Exception :
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at arbitrail.libramonitoring.controller.MonitoringController.publishUpdate(MonitoringController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

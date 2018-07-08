@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: libra-monitoring
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Filipe
+Implementation-Vendor-Id: arbitrail
+Build-Jdk: 1.8.0_60
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/libra-monitoring
+Created-By: Maven Integration for Eclipse
+

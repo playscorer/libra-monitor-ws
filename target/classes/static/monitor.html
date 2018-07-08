@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Libra Monitoring</title>
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<script src="./js/libra-monitoring.js"></script>
+</head>
+
+<style type="text/css">
+<!--
+body, table {
+	font-family: arial, sans-serif;
+	font-size: x-small;
+}
+
+th {
+	background: #336699;
+	color: #FFFFFF;
+	text-align: left;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6" onload="connect()">
+	<div>
+		<div>
+			<button id="disconnect" disabled="disabled" onclick="disconnect();">
+				Disconnect</button>
+		</div>
+		<br />
+		<div id="logs">
+		</div>
+	</div>
+</body>
+</html>
